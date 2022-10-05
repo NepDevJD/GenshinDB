@@ -1,0 +1,721 @@
+@media only screen and (max-width: 880px) {
+  .logo {
+    width: 360px;
+    height: auto;
+  }
+  .logoR {
+    border-radius: 30px;
+    width: 370px;
+    height: auto;
+    padding-top: 75px;
+  }
+  body {
+    background-color: rgb(242, 255, 254);
+  }
+  .paimon {
+    width: 98vw;
+  }
+  .rHome {
+    position: fixed;
+    bottom: 0px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 10px;
+    height: 100px;
+    width: 90%;
+    border-radius: 25px;
+    border: none;
+  }
+  .buttonBox {
+    display: flex;
+    flex-direction: column;
+    border: 10px solid white;
+    border-radius: 25px;
+    margin: 10px;
+    width: 370px;
+    height: 500px;
+    color: rgb(60, 70, 78);
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+  .edit {
+    margin-left: 35px;
+    margin-right: 35px;
+    margin-top: 35px;
+    padding: 10px;
+    height: 65px;
+    width: 300px;
+    border-radius: 25px;
+    border: none;
+    background-color: rgb(255, 122, 122);
+  }
+
+  .editButtons {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    background-color: rgb(112, 0, 107);
+    border-radius: 25px;
+    margin: 5px;
+    padding: 5px;
+  }
+  .headBox {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  .nav {
+    padding-top: 30px;
+    font-size: 40px;
+    padding-right: 20px;
+    color: white;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .upname,
+  .addForm {
+    padding: 5px;
+    font-family: "Century Gothic";
+    color: #c8007a;
+    font-size: 36pt;
+    -webkit-text-stroke: 1px #ace8dc;
+  }
+  ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  li {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    width: 80%;
+    font-size: 20pt;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+  }
+  .stars {
+    height: 30pt;
+    width: auto;
+    padding-top: 10px;
+  }
+  .star {
+    width: auto;
+    height: 70px;
+  }
+  .add,
+  .update {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 80px;
+    margin-right: 80px;
+  }
+  label {
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    font-size: 14pt;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+  }
+  button {
+    padding: 10px;
+    margin: 10px;
+    width: 500px;
+    font-size: 16pt;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    color: rgb(0, 0, 0);
+    background-color: rgb(206, 198, 228);
+    border: 1px solid #000000;
+    border-radius: 10px;
+  }
+  button:hover {
+    color: rgb(116, 116, 116);
+    cursor: pointer;
+    background-color: rgb(233, 228, 247);
+  }
+
+  .stat {
+    margin-block-start: 8px;
+    margin-block-end: 6px;
+  }
+  .charh2 {
+    font-size: 30pt;
+    margin-top: 0px;
+    margin-bottom: -5px;
+  }
+  .nameText {
+    text-decoration: none;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    font-family: "Nova Mono", monospace;
+    color: rgb(218, 255, 237);
+    text-shadow: -1px -1px 1px rgba(255, 255, 255, 0.1),
+      1px 1px 1px rgba(0, 0, 0, 0.5);
+  }
+  .newText {
+    text-decoration: none;
+    font-size: 38px;
+    display: flex;
+    justify-content: space-around;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    font-family: "Nova Mono", monospace;
+    color: rgb(218, 255, 237);
+    text-shadow: -1px -1px 1px rgba(255, 255, 255, 0.1),
+      1px 1px 1px rgba(0, 0, 0, 0.5);
+  }
+  .cBack {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-radius: 25px;
+    margin: 5px;
+    padding: 5px;
+    justify-content: center;
+  }
+  .mainBack {
+    background-image: linear-gradient(
+      to left,
+      rgba(255, 0, 0, 0),
+      rgb(233, 255, 209)
+    );
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 25px;
+    margin: 5px;
+    padding: 5px;
+    width: 100%;
+  }
+  .name {
+    font-size: 60px;
+    font-family: "Nova Mono", monospace;
+    color: rgb(218, 255, 237);
+    text-shadow: -1px -1px 1px rgba(255, 255, 255, 0.1),
+      1px 1px 1px rgba(0, 0, 0, 0.5);
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .cHead {
+    display: flex;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: -40px;
+    margin-bottom: -40px;
+  }
+  .charh1 {
+    font-size: 30pt;
+    margin-top: 0px;
+    margin-bottom: -20px;
+  }
+  .introText {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    border: 10px solid white;
+    border-radius: 25px;
+    margin: 10px;
+    width: 350px;
+    height: 490px;
+    font-size: 18pt;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(60, 70, 78);
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+  .home {
+    margin: 10px;
+    padding: 10px;
+    height: 65px;
+    width: 200px;
+    border-radius: 25px;
+    border: none;
+  }
+  input,
+  select {
+    width: 200px;
+  }
+  .advUp {
+    display: none;
+  }
+  .adv {
+    margin-left: 150px;
+    padding: 4px;
+    font-size: 14pt;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    color: rgb(85, 55, 255);
+    width: 150px;
+    background-color: rgb(206, 198, 228);
+    border: 1px solid #000000;
+    height: 20px;
+    border-radius: 10px;
+  }
+  .adv:hover {
+    color: red;
+    cursor: pointer;
+    background-color: rgb(233, 228, 247);
+  }
+  .charList {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 135px;
+    width: 210px;
+    border-radius: 20px;
+    margin: 6px;
+    border: 5px solid #fbfff0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  .newList {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 135px;
+    width: 210px;
+    border-radius: 20px;
+    margin: 6px;
+    border: 5px solid #fbfff0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background: linear-gradient(
+      90deg,
+      rgba(19, 70, 149, 1) 0%,
+      rgba(255, 164, 184, 1) 100%
+    );
+  }
+  .cIcon {
+    height: 90px;
+    border-radius: 50%;
+  }
+  .icostar {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  a {
+    text-decoration: none;
+  }
+  .mainBox {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .mainAll {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .mainAllEdit {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .mainAllEditing {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    justify-content: center;
+  }
+  .portrait {
+    border: 10px solid white;
+    border-radius: 25px;
+    margin: 10px;
+    width: 370px;
+    height: 500px;
+  }
+
+  .stuffBox {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .mainHead {
+    font-family: "Century Gothic";
+    color: #c8007a;
+    font-size: 9.5vw;
+    -webkit-text-stroke: 1px #ace8dc;
+  }
+}
+@media only screen and (min-width: 881px) {
+  .logoR {
+    border-radius: 30px;
+    width: 360px;
+    height: auto;
+    padding-top: 75px;
+  }
+  body {
+    background-color: rgb(242, 255, 254);
+  }
+  .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    background-color: rgb(112, 0, 107);
+    border-radius: 25px;
+    margin: 5px;
+    padding: 5px;
+  }
+  .nav {
+    padding-top: 30px;
+    font-size: 40px;
+    padding-right: 20px;
+    color: white;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  li {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    width: 80%;
+    font-size: 20pt;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+  }
+  .stars {
+    height: 30pt;
+    width: auto;
+    padding-top: 10px;
+  }
+  .star {
+    width: auto;
+    height: 70px;
+  }
+  .add {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  label {
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    font-size: 14pt;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+  }
+  button {
+    padding: 10px;
+    margin: 10px;
+    width: 500px;
+    font-size: 16pt;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    color: rgb(0, 0, 0);
+    background-color: rgb(206, 198, 228);
+    border: 1px solid #000000;
+    border-radius: 10px;
+  }
+  button:hover {
+    color: rgb(116, 116, 116);
+    cursor: pointer;
+    background-color: rgb(233, 228, 247);
+  }
+  .nameText {
+    text-decoration: none;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    font-family: "Nova Mono", monospace;
+    color: rgb(218, 255, 237);
+    text-shadow: -1px -1px 1px rgba(255, 255, 255, 0.1),
+      1px 1px 1px rgba(0, 0, 0, 0.5);
+  }
+  .newText {
+    text-decoration: none;
+    font-size: 38px;
+    display: flex;
+    justify-content: space-around;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    font-family: "Nova Mono", monospace;
+    color: rgb(218, 255, 237);
+    text-shadow: -1px -1px 1px rgba(255, 255, 255, 0.1),
+      1px 1px 1px rgba(0, 0, 0, 0.5);
+  }
+  .cBack {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-radius: 25px;
+    margin: 5px;
+    padding: 5px;
+  }
+  .headBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .mainBack {
+    background-image: linear-gradient(
+      to left,
+      rgba(255, 0, 0, 0),
+      rgb(233, 255, 209)
+    );
+    display: flex;
+    flex-direction: column;
+    border-radius: 25px;
+    margin: 5px;
+    padding: 5px;
+    width: 75%;
+  }
+  .name {
+    font-size: 60px;
+    font-family: "Nova Mono", monospace;
+    color: rgb(218, 255, 237);
+    text-shadow: -1px -1px 1px rgba(255, 255, 255, 0.1),
+      1px 1px 1px rgba(0, 0, 0, 0.5);
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .cHead {
+    display: flex;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: -40px;
+    margin-bottom: -40px;
+  }
+  .introText {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    border: 10px solid white;
+    border-radius: 25px;
+    margin: 10px;
+    width: 350px;
+    height: 480px;
+    font-size: 18pt;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(60, 70, 78);
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+  .buttonBox {
+    display: flex;
+    flex-direction: column;
+    border: 10px solid white;
+    border-radius: 25px;
+    margin: 10px;
+    width: 370px;
+    height: 500px;
+    color: rgb(60, 70, 78);
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+  input,
+  select {
+    width: 200px;
+  }
+  .advUp {
+    display: none;
+  }
+  .adv {
+    margin-left: 150px;
+    padding: 4px;
+    font-size: 14pt;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    color: rgb(85, 55, 255);
+    width: 150px;
+    background-color: rgb(206, 198, 228);
+    border: 1px solid #000000;
+    height: 20px;
+    border-radius: 10px;
+  }
+  .adv:hover {
+    color: red;
+    cursor: pointer;
+    background-color: rgb(233, 228, 247);
+  }
+  .charList {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 135px;
+    width: 210px;
+    border-radius: 20px;
+    margin: 6px;
+    border: 5px solid #fbfff0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  .newList {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 135px;
+    width: 210px;
+    border-radius: 20px;
+    margin: 6px;
+    border: 5px solid #fbfff0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background: linear-gradient(
+      90deg,
+      rgba(19, 70, 149, 1) 0%,
+      rgba(255, 164, 184, 1) 100%
+    );
+  }
+  .cIcon {
+    height: 90px;
+    border-radius: 50%;
+  }
+  .icostar {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  a {
+    text-decoration: none;
+  }
+  .mainBox {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .mainAll {
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 25px;
+    margin: 5px;
+    padding: 5px;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .mainAllEdit {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    justify-content: center;
+  }
+  .mainAllEditing {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+  .portrait {
+    border: 10px solid white;
+    border-radius: 25px;
+    margin: 10px;
+    width: 370px;
+    height: 500px;
+  }
+  .stuffBox {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  .mainHead {
+    font-family: "Century Gothic";
+    color: #c8007a;
+    font-size: 60px;
+    -webkit-text-stroke: 1px #ace8dc;
+
+    padding-left: 10px;
+  }
+  .charh1 {
+    font-size: 30pt;
+    margin-top: 0px;
+    margin-bottom: -20px;
+  }
+
+  .charh2 {
+    font-size: 30pt;
+    margin-top: 0px;
+    margin-bottom: -5px;
+  }
+  .rHome {
+    position: fixed;
+    bottom: 0px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 10px;
+    height: 100px;
+    width: 90%;
+    border-radius: 25px;
+    border: none;
+  }
+  .home {
+    margin: 10px;
+    padding: 10px;
+    height: 65px;
+    width: 200px;
+    border-radius: 25px;
+    border: none;
+  }
+  .edit {
+    margin-left: 35px;
+    margin-right: 35px;
+    margin-top: 35px;
+    padding: 10px;
+    height: 65px;
+    width: 300px;
+    border-radius: 25px;
+    border: none;
+    background-color: rgb(255, 122, 122);
+  }
+  .editButtons {
+    display: flex;
+    flex-direction: column;
+  }
+  .stat {
+    margin-block-start: 8px;
+    margin-block-end: 6px;
+  }
+  .logo {
+    width: 360px;
+    height: auto;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+  }
+  .upname,
+  .addForm {
+    padding: 5px;
+    font-family: "Century Gothic";
+    color: #c8007a;
+    font-size: 36pt;
+    -webkit-text-stroke: 1px #ace8dc;
+  }
+  .paimon {
+    width: 800px;
+  }
+}
